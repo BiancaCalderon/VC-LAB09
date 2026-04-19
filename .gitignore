@@ -1,0 +1,27 @@
+# env
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# model weights
+*.pt
+*.onnx
+
+# media
+*.mp4
+*.avi
+*.mov
+*.gif
+*.jpg
+*.jpeg
+*.png
+
+# jupyter
+.ipynb_checkpoints/
+
+# macos
+.DS_Store
+
+# runs output (ultralytics saves here)
+runs/
